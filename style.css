@@ -1,0 +1,82 @@
+.project a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+    .project p:hover {
+        color: #03dac5;
+    }
+    
+.project {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.project:hover {
+  transform: translateY(-5px);      
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.project h3 {
+    font-size: 1.5rem;
+    color: #03dac5;
+    margin-bottom: 10px;
+}
+.project p {
+  font-size: 1rem;
+  color: #b0bec5;
+}
+    .project p:hover {
+        color: #03dac5;
+    }
+    
+    @media (max-width: 768px) {
+        .project {
+        padding: 15px;
+        }
+        .project h3 {
+        font-size: 1.3rem;
+        }
+        .project p {
+        font-size: 0.9rem;
+        }
+    }
+    .project a {
+    color: #03dac5;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.project a:hover {
+    color: #03dac5;
+    text-decoration: underline;
+}
+.project a:visited {
+    color: #03dac5;
+}
+.project a:active {
+    color: #03dac5;
+    text-decoration: underline;
+}
+.project a:focus {
+    outline: 2px solid #03dac5;
+    outline-offset: 2px;
+}
+.project a:focus-visible {
+    outline: 2px solid #03dac5;
+    outline-offset: 2px;
+}
+.project a:focus:not(:focus-visible) {
+    outline: none;
+}
+.project a:hover {
+    color: #03dac5;
+    text-decoration: underline;
+}
+
